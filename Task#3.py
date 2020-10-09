@@ -6,7 +6,7 @@ while True:
     n = input("Please enter integer number n: ")
 
     if n.isdigit():
-        n = int(n)
-        result = n+n*n+n*n*n
-        print(f"n+n*n+n*n*n = {n}+{n}*{n}+{n}*{n}*{n} = {result}")
+
+        result = int(n+n*2+n*3)
+        print(f"n+n*n+n*n*n = {n}+{n}{n}+{n}{n}{n} = {result}")
         break

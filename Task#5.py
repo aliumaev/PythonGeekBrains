@@ -21,7 +21,7 @@ while True:
                 if employeesN.isdigit() and int(employeesN) >= 1:
                     employeesN = int(employeesN)
                     profinOnOneEmployee = profit/employeesN
-                    print(f"Прибыль компании в расчете на одного сотрудника = {profinOnOneEmployee}")
+                    print(f"Прибыль компании в расчете на одного сотрудника = {profinOnOneEmployee: .3f}")
                     break
 
         elif income < expenses:
